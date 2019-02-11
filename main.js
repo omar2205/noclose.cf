@@ -40,7 +40,8 @@ document.addEventListener('DOMContentLoaded', function(event) {
             document.body.className = ""
         }
     }
-
+// simple stuff, if dark then set the cookie to dark
+//    else then set it to darknot
     var btn = document.getElementsByClassName('toggle-btn')
     btn[0].addEventListener('click', function() {
         document.body.classList.toggle('dark')
