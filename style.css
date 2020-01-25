@@ -1,8 +1,7 @@
-@font-face { font-family: 'HelveticaNeueLTPro-Cn';  src: local('HelveticaNeueLTPro-Cn'), url('https://nomail.com.ua/files/woff/137bc231bd3f5c6a11768f3099a82ac5.woff') format('woff'); }
-@font-face { font-family: 'HelveticaNeueLTPro-UltLt';  src: local('HelveticaNeueLTPro-UltLt'), url('https://nomail.com.ua/files/woff/72ccb9e221a6434c15e181e738db16dc.woff') format('woff'); }
+@import url('https://use.typekit.net/zhb8zhr.css');
 
 body {
-    font-family: 'HelveticaNeueLTPro-Cn', 'SF Pro Display', 'San Francisco Display', 'Helvetica Neue','Roboto', sans-serif;
+    font-family: 'aktiv-grotesk', 'SF Pro Display', 'San Francisco Display', 'Helvetica Neue','Roboto', sans-serif;
     font-size: 14px;
     color: rgba(0,0,0,0.87);
     display: flex;
@@ -16,9 +15,8 @@ body {
     transition: 0.6s;
 }
 h1, h2, h3 {
-    font-family: 'HelveticaNeueLTPro-UltLt';    
     font-weight: 100;
-    font-size: 50px;
+    font-size: 1.4rem;
 }
 h1 {
     width: 100%;
@@ -43,6 +41,7 @@ p {
     margin-bottom: 16px;
     font-weight: 400;
     text-align: center;
+    font-size: 0.8rem;
 }
 p br {
     font-size: 20px;
